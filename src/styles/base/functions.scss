@@ -6,6 +6,6 @@
   @return calc($val / 16px) * 1rem;
 }
 
-@function alphaColor($color, $opacity: 0.6) {
+@function alphacolor($color, $opacity: 0.6) {
   @return rgba(red($color), green($color), blue($color), $opacity);
 }

@@ -2,8 +2,8 @@
 
 $themeColor: #942ffb;
 $inputBorderColor: #6e726f;
-$bgLightenVal: 10;
-$brdLightenVal: 5;
+$bgLightenVal: 3%;
+$brdLightenVal: 1%;
 $successColor: #27e164;
 $successBgColor: color.adjust($successColor, $lightness: $bgLightenVal);
 $successBorderColor: color.adjust($successColor, $lightness: $brdLightenVal);
