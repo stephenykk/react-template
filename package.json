@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "npm run build && vite preview",
-    "lint-staged": "lint-staged",
+    "lint-staged": "tsc --skipLibCheck --noEmit && lint-staged",
     "prepare": "husky install",
     "stylelint": "stylelint src/**/*.{css,scss} --fix"
   },

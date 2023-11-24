@@ -4,5 +4,5 @@ type Props = {
 }
 
 export default function LoginForm(props: Props) {
-  return <div className="login-form">login form</div>
+  return <div className="login-form">login form {props.email}</div>
 }
